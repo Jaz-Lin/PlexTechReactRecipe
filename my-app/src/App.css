@@ -1,0 +1,52 @@
+.App{
+  min-height: 100vh; 
+  background-image: url('https://image.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg'); 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.search-form{
+  min-height: 10vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.search-bar{
+  width: 50%;
+  border: none; 
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px; 
+
+}
+.search-button{
+  background:rgb(255, 212, 128); 
+  border: none; 
+  padding: 10px 20px; 
+  color: white1; 
+  font-family: 'Baskerville Old Face'; 
+  border-radius: 0px 10px 10px 0px; 
+
+} 
+.recipes{
+  display: flex; 
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+}
+.RecipeTitle{
+  font-family: 'Baskerville Old Face'; 
+  font-size: 100px;
+  text-align: center; 
+}
+.header{
+  padding: 10px; 
+  text-align: center; 
+  background:rgb(255, 212, 128, 0.70); 
+  color:white; 
+  font-size: 50px; 
+  
+}
+.pineapple{
+  font-size: 40px; 
+  font-family: 'Baskerville Old Face'; 
+
+}
